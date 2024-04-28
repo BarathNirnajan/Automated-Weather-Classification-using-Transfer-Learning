@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url("/static/assets/img/gallery/pexels-johannes-plenio-1118873.jpg");
+            text-align: center;
+            background-color: #E57C23;
+        }
+        hr{
+            border-style: dashed none none;
+            width:100%;
+            border-color: #752000;
+            border-width: 5px;
+        }
+        .button{
+          display: inline-block;
+          padding: 15px 25px;
+          font-size: 10px;
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+          outline: none;
+          color: #b03b0d;
+          background-color:#E57C23 ;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px ;
+        }
+        .button:hover {background-color: #b03b0d; color: #bb5d0c;}
+        .button:active {
+        background-color: #E57C23;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm" >
+          <a href="#" class="navbar-brand mb-0 h1" style="color: antiquewhite;">Smartbridge</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav">
+              <li class="nav-item active">
+                <a href="/" class="nav-link active" style="color: antiquewhite;">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a href="/details" class="nav-link active" style="color: antiquewhite;">About</a>
+              </li>
+              <li class="nav-item active">
+                <a href="/input" class="nav-link active" style="color: antiquewhite;">Predict</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    <h1 style="color: antiquewhite; margin-top: 200px;">Weather</h1>
+    <hr>
+    <p1 style="color: antiquewhite;">Weather image recognition is a task that involves training a model to classify<br>
+    different types of weather from images and video frames.This could include identifying<br>
+    specific weather conditions such as clear,cloudy,rainy,or snowy.</p1>
+    <br>
+    <button class="button" style="margin-left: 0%;margin-top: 30px;"><a href="/type" style="color: floralwhite;">Types of Weather</a> </button>
+
+</body>
+</html>

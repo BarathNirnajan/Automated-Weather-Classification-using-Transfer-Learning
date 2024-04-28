@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Weather Classification</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Smartbridge</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="/"><FONT COLOR=white>Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section bg-dark text-white" id="predict">
+            <div class="frame">
+        <div class="center">
+    		<div class="title">
+    			<h2 class="text-center mt-0">Drop file to upload</h2>
+    		</div>
+    		<form action="/predict" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+    		<div class="text-center mt-0" class="dropzone">
+    			<img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
+    			<input type="file" name="image" class="upload-input" />
+    		</div>
+    		
+    		<div class="text-center mt-0" >
+    		<button type="submit" class="btn" name="classify"><FONT COLOR=white>Classify</button>
+    		</form>
+    		</div>
+    		</div>
+    		</div>
+    		</section>
+    		</body>
+    		</html>
